@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory | Abi Toy Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/toys.css">
+  <link rel="stylesheet" href="../css/forms.css">
+</head>
+<body data-root=".." data-page="toys">
+  <div data-site-navbar></div>
+
+  <main>
+    <section class="page-hero page-hero--catalog">
+      <div class="container">
+        <span class="eyebrow">Product Catalog</span>
+        <h1>Explore and manage the full toy inventory</h1>
+        <p>
+          Search, filter, and organize toys in a clean, user-friendly product management grid.
+        </p>
+      </div>
+    </section>
+
+    <section class="catalog-section">
+      <div class="container catalog-layout">
+        <aside class="filter-panel">
+          <div class="filter-card">
+            <h2>Search &amp; Filter</h2>
+            <label class="filter-label" for="searchInput">Keyword</label>
+            <input id="searchInput" class="input-field" type="search" placeholder="Search by name, category, or brand">
+
+
+            <label class="filter-label" for="priceFilter">Price range</label>
+            <select id="priceFilter" class="input-field">
+              <option value="all">Any price</option>
+              <option value="0-5000">Under Rs. 5,000</option>
+              <option value="5000-10000">Rs. 5,000 to 10,000</option>
+              <option value="10000-20000">Rs. 10,000 to 20,000</option>
+              <option value="20000+">Rs. 20,000 and above</option>
+            </select>
+
+            <label class="filter-label" for="sortFilter">Sort by</label>
+            <select id="sortFilter" class="input-field">
+              <option value="popularity">Popularity</option>
+              <option value="name-asc">Name: A to Z</option>
+              <option value="name-desc">Name: Z to A</option>
+              <option value="price-asc">Price: Low to high</option>
+              <option value="price-desc">Price: High to low</option>
+              <option value="newest">Newest</option>
+            </select>
+
+            <button class="btn btn--ghost btn--block" id="clearFiltersBtn" type="button">Clear filters</button>
+          </div>
+
+          <div class="filter-card admin-card">
+            <h3>Admin Shortcuts</h3>
+            <p>Maintain your product catalog through this management portal.</p>
+            <a class="btn btn--primary btn--block" href="../inventory/add">Add New Toy</a>
+          </div>
+        </aside>
+
+        <div class="catalog-content">
+          <div class="catalog-toolbar">
+            <div>
+              <h2>Available Inventory</h2>
+              <p id="catalogSummary">Loading toys...</p>
+            </div>
+            <a class="chip-link" href="#categories">Browse categories</a>
+          </div>
+
+          <div class="category-pill-row" id="categories"></div>
+          <div class="product-grid" id="catalogGrid"></div>
+          <div class="empty-state hidden" id="catalogEmptyState">
+            <h3>No toys matched your filters</h3>
+            <p>Try a different keyword, category, or price range.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+
+  <script src="../js/app.js"></script>
+  <script src="../js/toy.js"></script>
+</body>
+</html>

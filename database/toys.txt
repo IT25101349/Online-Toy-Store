@@ -1,0 +1,7 @@
+TSR001|Electronic Drone|Electronic|Phantom|12500|16|8+|High speed racing drone with 4K camera.|https://images.unsplash.com/photo-1542385151-efd9000785a0?q=80&w=800&auto=format&fit=crop|Electronic Toy
+TSR002|Plush Elephant|Soft|SoftTouch|1500|3|21|Soft cuddly elephant toy for toddlers.|d244134c-7753-44c1-9a7f-e719a1cd654a.jpg|Soft Toy
+TSR003|Remote Control Jeep|Electronic|Nitro|8500.00|12|6+|Off-road remote control car with suspension.|https://images.unsplash.com/photo-1532163351918-028f8f2b7a95?q=80&w=800&auto=format&fit=crop|Electronic Toy
+TSR004|Building Castle|General|LEGO|15000.00|10|7+|750-piece castle building blocks set.|https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?q=80&w=800&auto=format&fit=crop|General Toy
+TSR005|Collector Figure|General|Graceful|4200.00|20|3+|Educational figure with accessories.|https://images.unsplash.com/photo-1566576661366-747da91724bf?q=80&w=800&auto=format&fit=crop|General Toy
+TSR006|Musical Plush|Soft|Harmony|3500.00|18|1+|Soft bear that plays soothing lullabies.|https://images.unsplash.com/photo-1558253132-b6be30612c24?q=80&w=800&auto=format&fit=crop|Soft Toy
+TSR007|Toy_VTN|General|Other|2000|29|12|This is sample toy, VTNV|40d8956a-cadd-4357-849e-18c7f0a32a9c.jpg|General Toy
