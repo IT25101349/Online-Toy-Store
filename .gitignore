@@ -1,6 +1,0 @@
-.idea/
-*.log
-*.err
-backend/target/
-backend/uploads/toys/*
-!backend/uploads/toys/.gitkeep
